@@ -1,13 +1,14 @@
 .container-home {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 95vh;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    background: linear-gradient(to bottom, #ffffff, #000000); /* Aquí especificas los colores que quieres para el degradado */
+
 }
 
 .contenido-home {
@@ -17,9 +18,11 @@
 .container-home h1 {
     font-size: 8vw; /* Usando vw para que el tamaño de la fuente sea relativo al ancho de la pantalla */
     margin-bottom: 0.5em; /* Espaciado relativo al tamaño de la fuente */
+    color: #fff;
 }
 
 .container-home h2 {
     font-size: 4vw; /* Tamaño de fuente relativo al ancho de la pantalla */
     margin-top: 0.5em; /* Espaciado relativo al tamaño de la fuente */
+    color: #fff;
 }

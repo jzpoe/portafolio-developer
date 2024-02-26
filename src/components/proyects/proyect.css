@@ -1,0 +1,29 @@
+.proyectos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-proyectos{
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ margin-top: 40px;
+}
+.contenedor-proyectos img{
+    border-radius: 10px;
+    width: 70vh;
+    height: 40vh;
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .contenedor-proyectos img{
+        border-radius: 10px;
+        width: 30vh;
+        height: 20vh;
+        margin-bottom: 20px;
+    
+    }
+
+}
