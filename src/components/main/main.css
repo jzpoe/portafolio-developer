@@ -3,40 +3,57 @@
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-}
-
-.div-img {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Centrar verticalmente la imagen */
-}
-
-.div-img img {
-    max-width: 100%; /* Hacer que la imagen sea responsive */
-    height: auto; /* Altura automática para mantener la proporción */
-    max-height: 70vh; /* Limitar la altura de la imagen para que no sea demasiado grande en pantallas pequeñas */
-    border-radius: 206px 0 0 206px;
-}
-
-.div1 {
-    display: flex;
-    flex-direction: column;
-    padding: 20px; /* Añadir un poco de espacio alrededor del texto */
-}
-
-.div-h1 {
-    font-size: 2vw; /* Tamaño de fuente relativo al ancho de la pantalla */
-    margin-bottom: 20px; /* Espaciado inferior */
-}
-
-.div-1-1 h1 {
-    font-size: 1.5vw; /* Tamaño de fuente relativo al ancho de la pantalla */
-    margin-left: 10%; /* Añadir un poco de margen a la izquierda */
-}
-
-@media screen and (max-width: 767px) {
-    .container-main {
-        display: flex;
-        flex-direction: column;
     }
-  }
+    
+    .div-img {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .div-img img{
+        width: 70%;
+        height: 50vh;
+        border-radius: 206px 0 0 206px;
+    }
+    .div1{
+        display: flex;
+      flex-direction: column;
+    }
+
+    .div-h1
+    {
+        padding: 50px ;
+        font-size: 20px;
+    }
+
+    .div-1-1 h1{
+        margin-top: 10px;
+        margin-left: 47px;
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 767px) {
+        /* Estilos específicos para dispositivos móviles y tabletas */
+        .container-main {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .div-h1 {
+            padding: 5vw;
+            font-size: 4vw; /* Tamaño de la letra ajustado para dispositivos móviles */
+        }
+    
+        .div-1-1 h1 {
+            margin-top: 2vw;
+            margin-left: 2vw;
+            font-size: 4.5vw; /* Tamaño de la letra ajustado para dispositivos móviles */
+        }
+        .div-img img{
+            margin-top: 50px;
+            width: 90%;
+            height: 20vh;
+        }
+    }
+    

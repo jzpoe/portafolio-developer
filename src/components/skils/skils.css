@@ -4,6 +4,12 @@
     justify-content: center;
     margin-top: 50px;
 }
+.container-titulo-skils{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
 
 .container-skils img{
     max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
@@ -11,6 +17,16 @@
     margin: 98px; /* Espacio entre las imágenes */
     
 
+}
+
+@media screen and (max-width: 767px) {
+    .container-skils img{
+        max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+        height: 40px; /* Permite que la altura se ajuste automáticamente */
+        margin: 40px; /* Espacio entre las imágenes */
+        
+    
+    }
 }
 
 
