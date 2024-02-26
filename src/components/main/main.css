@@ -15,6 +15,7 @@
         width: 70%;
         height: 50vh;
         border-radius: 206px 0 0 206px;
+        margin-top: 50px;
     }
     .div1{
         display: flex;
