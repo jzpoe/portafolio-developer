@@ -1,0 +1,17 @@
+.container-skils{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-skils img{
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+    height: 60px; /* Permite que la altura se ajuste automáticamente */
+    margin: 98px; /* Espacio entre las imágenes */
+    
+
+}
+
+
+

@@ -1,0 +1,21 @@
+.container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+
+.contenido-home{
+    text-align: center;
+}
+.container-home h1{
+font-size: 50px;
+
+
+}
