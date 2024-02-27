@@ -1,9 +1,22 @@
+import { useEffect } from 'react';
+import ScrollReveal from "scrollreveal";
 import './skils.css'
 const Skils = () => {
+  useEffect(() => {
+    const scrollReveal = ScrollReveal();
+    scrollReveal.reveal(".skills",  {
+      origin: "right",
+      distance: "50px",
+      duration: 1000,
+      delay: 0,
+      easing: "ease",
+    });
+    
+  }, []);
   return (
     <>
     <div className='container-titulo-skils'>
-        <h1>Skills</h1>
+        <h1 className='skills'>Skills</h1>
     </div>
     <div className='container-skils'>
       <div className='imagen-skils'><img src="/assets/skils/github_original_wordmark_logo_icon_146506.png" alt="" /></div>
