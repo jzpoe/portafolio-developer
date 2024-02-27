@@ -20,6 +20,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .container-titulo-skils{
+        margin-top: -19px;
+    }
     .container-skils img{
         max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
         height: 40px; /* Permite que la altura se ajuste automáticamente */

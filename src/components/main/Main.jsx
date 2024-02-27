@@ -19,9 +19,7 @@ const Main = () => {
           siguiente nivel!</h1>
         </div>
       </div>
-      <div className="div-img">
-        <img src="/assets/perfil/foto-de-perfil.jpg" alt="" />{" "}
-      </div>
+      
     </div>
   );
 };

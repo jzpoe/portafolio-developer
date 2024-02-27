@@ -2,13 +2,23 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    height: 91vh;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background: linear-gradient(to bottom, #ffffff, #000000); /* Aquí especificas los colores que quieres para el degradado */
 
+}
+
+
+
+.div-img img{
+    width: 25%;
+    height: 50vh;
+    margin-top: 50px;
+border-radius:  50%;
+border: #0c0029 solid ;
 }
 
 .contenido-home {
@@ -25,4 +35,15 @@
     font-size: 4vw; /* Tamaño de fuente relativo al ancho de la pantalla */
     margin-top: 0.5em; /* Espaciado relativo al tamaño de la fuente */
     color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .div-img img{
+        margin-top: 50px;
+
+        width: 45%;
+height: 25vh;
+    }
+
+    
 }
