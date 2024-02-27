@@ -1,0 +1,16 @@
+link[rel="icon"] {
+    border: 2px solid black;
+    border-radius: 90%; /* Para hacer el borde redondeado */
+  }
+  
+  /* Ajusta el tamaño de la imagen */
+  link[rel="icon"] {
+    width: 32px; /* Ancho de la imagen */
+    height: 32px; /* Alto de la imagen */
+  }
+  
+  /* Centra la imagen en la pestaña */
+  link[rel="icon"] {
+    display: block;
+    margin: 0 auto;
+  }
