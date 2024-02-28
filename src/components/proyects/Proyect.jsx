@@ -24,6 +24,11 @@ export const Proyect = () => {
     <a href="https://all-tech-board.vercel.app/" target="_blank">
     <img src="/assets/proyectos/reparaciones.png" alt="" />
     </a>
+
+    <a href="https://inventory-two-xi.vercel.app" target="_blank">
+    <img src="/assets/proyectos/inventario.png" alt="" />
+    </a>
+
     </div>
     </>
   )
