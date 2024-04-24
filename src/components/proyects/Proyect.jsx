@@ -1,4 +1,3 @@
-import { Fade } from 'react-reveal';
 import './proyect.css';
 
 const Proyect = () => {
@@ -8,7 +7,7 @@ const Proyect = () => {
         <h1 className='proyectos-h1'>proyectos</h1>
       </div>
       <div className='contenedor-proyectos'>
-        <Fade bottom cascade>
+        
           <a href="https://all-tech-board.vercel.app/" target="_blank">
             <img src="/assets/proyectos/reparaciones.png" alt="" />
           </a>
@@ -18,7 +17,7 @@ const Proyect = () => {
           <a href="https://store-full.vercel.app/" target="_blank">
             <img src="/assets/proyectos/fullStore.png" alt="" />
           </a>
-        </Fade>
+        
       </div>
     </>
   )
