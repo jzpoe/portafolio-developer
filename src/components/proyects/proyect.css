@@ -1,13 +1,15 @@
 .proyectos{
     width: 100%;
-    display: flex;
-    justify-content: center;
+flex-direction: row;    
+justify-content:space-between;
 }
 .contenedor-proyectos{
- display: flex;
- justify-content: center;
- width: 100%;
- margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Cambiado a wrap */
+    align-items: center; /* Alinea las imágenes al centro */
+    width: 100%;
+    margin-top: 40px;
  
 }
 .contenedor-proyectos img{
